@@ -6,15 +6,15 @@
 import os
 
 from bot import (
-    APP_ID,
-    API_HASH,
-    AUTH_USERS,
+    APP_ID,7774029
+    API_HASH,531dbf42d387514dc43da07db9f2dc8f
+    AUTH_USERS,1654867043
     DOWNLOAD_LOCATION,
     LOGGER,
-    TG_BOT_TOKEN,
-    BOT_USERNAME,
-    SESSION_NAME,
-    DATABASE_URL
+    TG_BOT_TOKEN,5264031481:AAElVQQ19zSav2s1WyoFfOtFt7QXuhdrReA
+    BOT_USERNAME,videocompress1023bot
+    SESSION_NAME,AHcompress
+    DATABASE_URL,
 )
 from bot.plugins.new_join_fn import (	
     help_message_f	
@@ -55,10 +55,10 @@ if __name__ == "__main__" :
     #
     
     app = Client(
-        SESSION_NAME,
-        bot_token=TG_BOT_TOKEN,
-        api_id=APP_ID,
-        api_hash=API_HASH,
+        SESSION_NAME,AHcompress
+        bot_token=TG_BOT_TOKEN,5264031481:AAElVQQ19zSav2s1WyoFfOtFt7QXuhdrReA
+        api_id=APP_ID,7774029
+        api_hash=API_HASH,531dbf42d387514dc43da07db9f2dc8f
         workers=2
     )
     #
