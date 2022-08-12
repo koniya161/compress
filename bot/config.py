@@ -13,7 +13,7 @@ class Config(object):
     APP_ID = int(get_config("APP_ID","7774029"))
     API_HASH = get_config("API_HASH", "531dbf42d387514dc43da07db9f2dc8f")
     LOG_CHANNEL = get_config("LOG_CHANNEL","VCAM_CHANNLE")
-    UPDATES_CHANNEL = get_config("UPDATES_CHANNEL", None) # Without `@` LOL
+    UPDATES_CHANNEL = get_config("UPDATES_CHANNEL","VCAM_CHANNLE") # Without `@` LOL
      # Get these values from my.telegram.org
     # array to store the channel ID who are authorized to use the bot
     AUTH_USERS = set(
